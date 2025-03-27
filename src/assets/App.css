@@ -1,0 +1,19 @@
+@font-face {
+    font-family: Centra;
+    src: url('./assets/logo/log.svg');
+    font-weight: 500;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-weight: 400;
+    position: relative;
+    background-color: #c9d6e8 !important;
+    color: #fff !important;
+    font-family: 'Centra', sans-serif !important;
+}
