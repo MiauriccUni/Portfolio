@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, NavDropdown, Navbar, Nav } from "react-bootstrap";
+import logo from "../assets/logo/log.svg";
 
 function Nb() {
   return (
@@ -7,7 +8,7 @@ function Nb() {
       <Navbar expand="lg" className="bg-body-tertiary">
         <Container>
           <Navbar.Brand href="#home">
-            <img src={"../"} alt="Logo" />
+            <img src={logo} alt="logo" />
           </Navbar.Brand>
 
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
