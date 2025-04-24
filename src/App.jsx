@@ -1,6 +1,6 @@
-import { useState } from "react";
 import Nb from "./components/Nb";
 import Description from "./components/Description";
+import { Skills } from "./components/skills";
 import "./assets/App.css";
 
 function App() {
@@ -8,6 +8,7 @@ function App() {
     <>
       <Nb />
       <Description />
+      <Skills />
     </>
   );
 }
