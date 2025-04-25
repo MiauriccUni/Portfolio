@@ -21,8 +21,12 @@ function App() {
   return (
     <>
       <Nb />
-      <Description />
-      <Skills />
+      <section id="home">
+        <Description />
+      </section>
+      <setion id="skills">
+        <Skills />
+      </setion>
       <Carousel images={images} />
       <Footer />
     </>

@@ -16,10 +16,10 @@ function Nb() {
         </Navbar.Toggle>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#Home">Inicio</Nav.Link>
-            <Nav.Link href="#Skills">Habilidades</Nav.Link>
-            <Nav.Link href="#Proyect">Proyectos</Nav.Link>
-            <Nav.Link href="#Contact">Contacto</Nav.Link>
+            <Nav.Link href="#home">Inicio</Nav.Link>
+            <Nav.Link href="#skills">Habilidades</Nav.Link>
+            <Nav.Link href="#proyect">Proyectos</Nav.Link>
+            <Nav.Link href="#contact">Contacto</Nav.Link>
           </Nav>
           <span className="me">
             <div className="social">

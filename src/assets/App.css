@@ -2,6 +2,10 @@
     text-align: center;
 }
 
+html{
+    scroll-behavior: smooth;   
+}
+
 body {
     color: #213d62 !important;
     font-weight: 400;
