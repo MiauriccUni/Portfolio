@@ -1,4 +1,6 @@
 import React from "react";
+// src/main.tsx or main.jsx
+import "bootstrap-icons/font/bootstrap-icons.css";
 
 export function Skills() {
   const skillscategories = [
@@ -23,19 +25,19 @@ export function Skills() {
     {
       id: 4,
       title: "Librerias",
-      icon: "bi-library",
+      icon: "bi-book",
       technologies: ["Newtonsoft", "Linq", "Security.Cryptography"],
     },
     {
       id: 5,
       title: "Otras Habilidades",
       icon: "bi-tools",
-      technologies: ["Git", "Postman", "Swagger", "Azure DevOps"],
+      technologies: ["Git", "Postman", "Swagger", "Github", "Azure DevOps"],
     },
     {
       id: 6,
       title: "Otros lenguages de programación",
-      icon: "bi-library",
+      icon: "bi-code-slash",
       technologies: ["Python", "Java", "Typescript", "C++"],
     },
   ];
