@@ -8,7 +8,7 @@ export function Projects() {
       image: "/src/assets/logo/github.svg",
       title: "Clinica Virtual Simepci",
       description:
-        "Una clinica virtual que permite a los usuarios, registrarse e iniciar una membresia, para poder acceder a los servicios de la clinica. Tambien se administran diferentes roles como, Cliente, Cliente Premium, Administrador y Medico.",
+        "Una clinica virtual que permite a los usuarios, registrarse e iniciar una membresía, para poder acceder a los servicios de la clinica. Tambien se administran diferentes roles como, Cliente, Cliente Premium, Administrador y Medico.",
       tags: ["Bootstrap", "MVC", ".Net 8", "C#", "Azure SQL", "jQuery"],
 
       githubUrl: "https://github.com/MiauriccUni/Clinica",
@@ -18,7 +18,7 @@ export function Projects() {
       image: "/src/assets/logo/github.svg",
       title: "Gymnasio Virtual Rambo's Gym",
       description:
-        "Un Gymnasion con un sistema de membresias, donde los usuarios pueden registrarse y pagar su membresia, ademas de poder ver los diferentes servicios que ofrece el gimnasio.",
+        "Un Gymnasion con un sistema de membresías, donde los usuarios pueden registrarse y pagar su membresia, ademas de poder ver los diferentes servicios que ofrece el gimnasio.",
       tags: ["Bootstrap", "MVC", ".Net 8", "C#", "Azure SQL", "jQuery"],
 
       githubUrl: "https://github.com/MiauriccUni/Proyecto",

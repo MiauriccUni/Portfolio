@@ -12,7 +12,7 @@ function Description() {
   };
   return (
     <>
-      <section id="description" className="section-padding fluid">
+      <section id="description" className="fluid">
         <div className="text-center">
           <div className="imgprofile">
             <img src={pr} alt="img" className="photo fluid" />
@@ -27,7 +27,7 @@ function Description() {
             Mantenimiento de Equipos de Computo y Tecnico en Redes.
           </p>
           <button id="buttonCV" onClick={dowloadCV} className="btn ">
-            Aca puesdes descargar mi CV en PDF, español e ingles.
+            Acá puesdes descargar mi CV en PDF, español e ingles.
           </button>
         </div>
       </section>
