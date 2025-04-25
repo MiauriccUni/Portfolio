@@ -3,6 +3,7 @@ import Description from "./components/Description";
 import { Skills } from "./components/skills";
 import { Footer } from "./components/Footer";
 import Carousel from "./components/Carousel";
+import { Projects } from "./components/Projects";
 
 import image1 from "./assets/skillslogos/1692192289141.png";
 import image2 from "./assets/skillslogos/645629-css-wallpaper-top-free-css-background.jpg";
@@ -28,6 +29,9 @@ function App() {
         <Skills />
       </setion>
       <Carousel images={images} />
+      <section id="proyects">
+        <Projects />
+      </section>
       <Footer />
     </>
   );

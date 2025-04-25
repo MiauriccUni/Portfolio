@@ -116,7 +116,7 @@ nav.navbar .nav-link:hover {
 }
 
 #carousel{
-    background-color: #c9d6e8 !important;
+    background-color: #ecf4ff !important;
     size: 20px;
     font-size: 2rem;
   cursor: pointer;
@@ -132,6 +132,10 @@ nav.navbar .nav-link:hover {
     object-fit: contain;
   border-radius: 10px;
     
+}
+#projects {
+    background-color: #ecf4ff !important;
+    color: #213d62 !important;
 }
 
 

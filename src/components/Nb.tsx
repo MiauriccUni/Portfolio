@@ -18,7 +18,7 @@ function Nb() {
           <Nav className="me-auto">
             <Nav.Link href="#home">Inicio</Nav.Link>
             <Nav.Link href="#skills">Habilidades</Nav.Link>
-            <Nav.Link href="#proyect">Proyectos</Nav.Link>
+            <Nav.Link href="#proyects">Proyectos</Nav.Link>
             <Nav.Link href="#contact">Contacto</Nav.Link>
           </Nav>
           <span className="me">
