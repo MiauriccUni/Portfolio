@@ -4,16 +4,14 @@ import logo from "../assets/logo/log.svg";
 import linkedinlogo from "../assets/logo/linkedin_logo.svg";
 import githublogo from "../assets/logo/github.svg";
 
-function Nb() {
+export function Nb() {
   return (
     <Navbar expand="lg">
       <Container>
         <Navbar.Brand id="brand" href="#home">
           <img src={logo} alt="logo" className="logoimg" />
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav">
-          <span className="navbar-toggler-icon"></span>
-        </Navbar.Toggle>
+        <Navbar.Toggle></Navbar.Toggle>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="#home">Inicio</Nav.Link>
@@ -36,5 +34,3 @@ function Nb() {
     </Navbar>
   );
 }
-
-export default Nb;

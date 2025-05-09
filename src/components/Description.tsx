@@ -1,5 +1,6 @@
 import React from "react";
 import pr from "../assets/logo/1721343141361.jpg";
+import { Container } from "react-bootstrap";
 
 function Description() {
   const dowloadCV = () => {
@@ -12,24 +13,27 @@ function Description() {
   };
   return (
     <>
-      <section id="description" className="fluid">
-        <div className="text-center">
-          <div className="imgprofile">
-            <img src={pr} alt="img" className="photo fluid" />
+      <section id="description" className="center-content">
+        <Container className="text-content">
+          <div className="text-center">
+            <div className="imgprofile center-content">
+              <img src={pr} alt="img" className="photo fluid" />
+            </div>
+            <h1>Acerca de Mí</h1>
+            <p className="center fluid">
+              Me llamo Ricardo, soy Desarrollador Web Full Stack con enfoque en
+              desarrollo Web y APIs Rest, usando tecnologías como: C# con
+              .Netcore 8 para el Back-end y enlace con la base de datos, Azure
+              SQL para la base de datos y el modelo MVC para la arquitectura y
+              el patrón de diseño en el Front-End. Tambien soy Tecnico en
+              Electronica y Mantenimiento de Equipos de Computo y Tecnico en
+              Redes.
+            </p>
+            <button id="buttonCV" onClick={dowloadCV} className="center btn">
+              <p>Acá puesdes descargar mi CV en PDF, español e ingles.</p>
+            </button>
           </div>
-          <h1>Acerca de Mí</h1>
-          <p className="center fluid">
-            Me llamo Ricardo, soy Desarrollador Web Full Stack con enfoque en
-            desarrollo Web y APIs Rest, usando tecnologías como: C# con .Netcore
-            8 para el Back-end y enlace con la base de datos, Azure SQL para la
-            base de datos y el modelo MVC para la arquitectura y el patrón de
-            diseño en el Front-End. Tambien soy Tecnico en Electronica y
-            Mantenimiento de Equipos de Computo y Tecnico en Redes.
-          </p>
-          <button id="buttonCV" onClick={dowloadCV} className="btn ">
-            Acá puesdes descargar mi CV en PDF, español e ingles.
-          </button>
-        </div>
+        </Container>
       </section>
     </>
   );
