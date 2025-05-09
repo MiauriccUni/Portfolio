@@ -1,4 +1,4 @@
-import Nb from "./components/Nb";
+import { Nb } from "./components/Nb";
 import Description from "./components/Description";
 import { Skills } from "./components/skills";
 import { Footer } from "./components/Footer";
@@ -15,7 +15,7 @@ import image6 from "./assets/skillslogos/asp.jpg";
 import image7 from "./assets/skillslogos/js.jpg";
 import image8 from "./assets/skillslogos/react free course.jpg";
 
-import "./assets/App.css";
+import "./assets/css/App.css";
 
 const images = [image1, image2, image3, image4, image5, image6, image7, image8];
 
